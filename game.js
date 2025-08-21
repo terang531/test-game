@@ -25,11 +25,15 @@ const story = {
     },
     hallway: {
         text: '廊下を進むと、大きなホールに出た。そこでは仮面をつけた人々が静かに踊っている。あなたに気づくと、彼らは一斉にこちらを向いた... To be continued.',
-        choices: []
+        choices: [
+            { text: '最初の画面に戻る', next: 'start' }
+        ]
     },
     lever: {
         text: 'レバーを引くと、カチリと音がして鉄格子の扉が開いた。その先は、暗く湿った地下へと続く階段だった... To be continued.',
-        choices: []
+        choices: [
+            { text: '最初の画面に戻る', next: 'start' }
+        ]
     }
 };
 
